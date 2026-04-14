@@ -17,7 +17,12 @@ This simple idea is the root of many complex cryptographic systems:
 
 These projects scale the same principle you see here — exponentiation is easy, discrete logs are hard — into full systems that secure web traffic, blockchain transactions, and digital identities.
 
+## Note
+This project is for educational purposes only.
+With small primes, the system is crackable. For real security, use 2048‑bit or larger primes and established cryptographic libraries.
+
 ## Usage
 ```bash
+git clone https://github.com/N1S55M-X/discrete-log-password-lock.git
 pip install -r requirements.txt
 
